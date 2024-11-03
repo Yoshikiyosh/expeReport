@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>物理実験レポート</title>
+    <style>
+        /* 表紙用スタイル */
+        .cover-page {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+        }
+        .cover-title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .cover-subtitle {
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+        .cover-info {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .separator {
+            border-top: 2px solid #333;
+            width: 60%;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- 表紙部分 -->
+    <div class="cover-page">
+        <div class="cover-title">物理実験レポート</div>
+        <div class="cover-subtitle">（3）物質の相転移 (DTA: Differential Thermal Analysis)</div>
+        <div class="separator"></div>
+        <div class="cover-info">
+            <p>学籍番号: 23041042</p>
+            <p>氏名: 菊池芳紀</p>
+            <p>提出年月日: 2024年10月29日</p>
+        </div>
+        <section>
+            <h2>概要</h2>
+            <p>
+                二つの熱電対を用いて電位の差を見ることによりスズと亜鉛の様々な割合での合金の状態図を作成した。
+                それにはその合金という試料よりも融点が高く熱によって変化しない基準物質を用意し、
+                ゼーベック効果の考え方を利用して電位差から温度を算出できるようにした。
+            </p>
+            <p>
+                固相線は殆ど変わらならかった一方で、液相線は下がり始めたのち、固相線にぶつかったのを境に
+                上昇し始める横軸が亜鉛と鉛の割合のグラフが得られた。
+            </p>
+        </section>
+    </div>
+
+    <!-- 本文内容へのリンク -->
+    
+
+    <section>
+        <h2>実験目的</h2>
+        <p>
+            スズと亜鉛の 10:0, 9:1, 8.5:1.5, 7:3, 5:5, 3:7, 1:9, 0:10 の合金の状態図の作成。
+            8 種類の状態図が作成できたら、横軸割合で液相線、固相線のグラフを作成する。
+        </p>
+    </section>
+
+    <section>
+        <h2>実験手順</h2>
+        <table border="1">
+            <tr>
+                <th>手順番号</th>
+                <th>内容</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>合金のサンプルを準備する</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>基準物質を用意し、熱電対をセットする</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>電位差を測定して温度を計算する</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>異なる割合でのスズと亜鉛の合金の状態図を作成する</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>液相線と固相線のグラフを作成する</td>
+            </tr>
+        </table>
+        <p>合金の試料はSn:Zn=10:0,9:1,8.5:1.5,7:3,5:5,3:7,1:9,0:10の8種類作る。</p>
+        <h5>DTA装置の使い方</h5>
+        <table border="1">
+            <tr>
+                <td>手順番号</td>
+                <td>内容</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>パソコン,モニター,TA-60Ws,DTG-60の起動</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>ガスの元栓,ガスの流量の調整</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3以下、TAの操作</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>ASCII変換した後txtファイルとして保存することに注意する</td>
+            </tr>
+
+        </table>
+        <h5>状態図を用いた解析</h5>
+        <p>二つの漸近線の交点からその時の炉内の温度を求めるには、傾きをslope関数、切片をintercept関数を用いる</p>
+    </section>
+    <section>
+        <h2>実験結果</h2>
+    </section>
+</body>
+</html>
